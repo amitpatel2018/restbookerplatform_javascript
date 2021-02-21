@@ -3,7 +3,7 @@ const Page = require('./page');
 class HomePage extends Page {
 
     get bookThisRoom() { return $('//button[contains(@class,"openBooking")]') }
-    get source() { return $('.rbc-month-view > div:nth-child(5) .rbc-row-bg .rbc-day-bg:nth-child(1)') }
+    get source() { return $('.rbc-month-view > div:nth-child(5) .rbc-row-bg .rbc-day-bg:nth-child(2)') }
     get firstName() { return $('[name="firstname"]') }
     get lastName() { return $('[name="lastname"]') }
     get email() { return $('[name="email"]') }
